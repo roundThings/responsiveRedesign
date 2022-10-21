@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap.css" rel="stylesheet">
+    <link href="style.css" , rel="stylesheet">
+    <style>
+        body {
+            background-image: url('Assets/lasse-bergqvist-ro3H4mJIArA-unsplash.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="rowContent">
+            <div class="sidenav">
+                <div class="padded">
+                    <img src="Assets/yansLogo.png" alt="a brush logo that says yans" vspace="50">
+                </div>
+
+                <div class="frosted">
+                    <div class="padded">
+                        <p class="header1">
+                            Open Today: <br>
+                            11:00am-9:15pm
+                        </p>
+                    </div>
+
+                    <div class="padded">
+                        <p class="header1">
+                            Pick-up Only, No Delivery
+                        </p>
+                    </div>
+
+                    <div class="padded">
+                        <p class="header1">
+                            83 Benevolent St <br>
+                            Providence, RI 02906 <br>
+                            (401) 751-8888 <br>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="superClass">
+
+            <div class="flexbox">
+                <div class>
+                    <p class="header2">
+                        About Us
+                    </p>
+                </div>
+
+                <div>
+                    <p class="header2">
+                        Hours
+                    </p>
+                </div>
+
+                <div>
+                    <p class="header2">
+                        Download Menu
+                    </p>
+                </div>
+
+                <div>
+                    <p class="header2">
+                        Login
+                    </p>
+                </div>
+
+                <div>
+                    <img src="Assets/cart.png" alt="cart icon" style="height: 50px; width: 50px;">
+                </div>
+            </div>
+
+            <!-- Tab links -->
+            <div class="menu">
+                <div class="tab">
+                    <button class="tablinks active" onclick="openTab(event, 'Appetizers')">Appetizers</button>
+                    <button class="tablinks" onclick="openTab(event, 'Combo')">Combo</button>
+                    <button class="tablinks" onclick="openTab(event, 'Noodles')">Noodles</button>
+                    <button class="tablinks" onclick="openTab(event, 'Stir-fry')">Stir-fry</button>
+                    <button class="tablinks" onclick="openTab(event, 'Vegetarian')">Vegetarian</button>
+                    <button class="tablinks" onclick="openTab(event, 'Hot-pot')">Hot-pot</button>
+                    <button class="tablinks" onclick="openTab(event, 'Dessert')">Dessert</button>
+                    <button class="tablinks" onclick="openTab(event, 'Drinks')">Drinks</button>
+                </div>
+
+
+                <!-- Tab content -->
+                <div id="Appetizers" class="tabcontent" style="display:block">
+                    <div class="m-1">
+                        <div class="m-1">
+                            <p class="header1Left"> Appetizer Spotlight</p>
+                        </div>
+                        <div class="flexboxClear">
+                            <div class="centerFlex">
+                                <img src="Assets/eggdrop.jpeg" alt="soup" style="height:120px;width: 150px; border-radius:10px 10px 10px 10px;
+                                    overflow: hidden;">
+                                <p class="details">
+                                    silky egg-drop soup
+                                </p>
+                            </div>
+                            <div class="centerFlex">
+                                <img src="Assets/summerRoll.jpeg" alt="summer roll" style="height:120px;width: 150px; border-radius:10px 10px 10px 10px;
+                                overflow: hidden;">
+                                <p class="details">
+                                    fresh summer roll
+                                </p>
+                            </div>
+                            <div class="centerFlex">
+                                <img src="Assets/crabRangoon.jpeg" alt="crab rangoon" style="height:120px;width: 150px; border-radius:10px 10px 10px 10px;
+                                overflow: hidden;">
+                                <p class="details">
+                                    crispy crab rangoon
+                                </p>
+                            </div>
+                            <div class="centerFlex">
+                                <img src="Assets/seaweedSalad.jpeg" alt="seaweed salad" style="height:120px;width: 150px; border-radius:10px 10px 10px 10px;
+                                overflow: hidden;">
+                                <p class="details">
+                                    refreshing seaweed salad
+                                </p>
+                            </div>
+                            <div class="centerFlex">
+                                <img src="Assets/tofu.jpeg" alt="soup" style="height:120px;width: 150px; border-radius:10px 10px 10px 10px;
+                                overflow: hidden;">
+                                <p class="details">
+                                    savory tofu
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <p class="header1Left"> Appetizer Combos</p>
+                        <div class="flexboxClear">
+
+                            <div class="flexboxFilled">
+                                <p class="headerBlack"> Tea Braised Eggs</p>
+                                <p class="headerBlack"> $1.80</p>
+                            </div>
+                            <div class="flexboxFilled">
+                                <p class="headerBlack"> Egg Roll (2) </p>
+                                <p class="headerBlack"> $7.15</p>
+                            </div>
+                            <div class="flexboxFilled">
+                                <p class="headerBlack"> Spring Roll (2) </p>
+                                <p class="headerBlack"> $7.15</p>
+                            </div>
+                            <div class="flexboxFilled">
+                                <p class="headerBlack"> Seaweed Salad</p>
+                                <p class="headerBlack"> $4.50</p>
+                            </div>
+                            <div class="flexboxFilled">
+                                <p class="headerBlack"> Fried Tofu Bags</p>
+                                <p class="headerBlack"> $10.25</p>
+                            </div>
+                            <div class="flexboxFilled">
+                                <p class="headerBlack"> Chicken Fingers (6)</p>
+                                <p class="headerBlack"> $7.80</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <script>
+        function openTab(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+
+</body>
+
+</html>
